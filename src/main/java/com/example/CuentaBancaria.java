@@ -1,24 +1,24 @@
 package com.example;
 
 public class CuentaBancaria {
-    private String titualar;
+    private String titular;
     private double saldo;
 
-    public CuentaBancaria(String titualar, double saldo) {
+    public CuentaBancaria(String titular, double saldo) {
         if (saldo < 0) {
             saldo = 0;
         }
-        this.titualar = titualar;
+        this.titular = titular;
         this.saldo = saldo;
 
     }
 
-    public String getTitualar() {
-        return titualar;
+    public String getTitular() {
+        return titular;
     }
 
-    public void setTitualar(String titualar) {
-        this.titualar = titualar;
+    public void setTitular(String titular) {
+        this.titular = titular;
     }
 
     public double getSaldo() {
@@ -47,7 +47,7 @@ public class CuentaBancaria {
 
     public String mostrarDetalles() {
         return "CuentaBancaria{" +
-                "titualar='" + titualar + '\'' +
+                "titular='" + titular + '\'' +
                 ", saldo=" + saldo +
                 '}';
     }
