@@ -6,7 +6,7 @@ public class Estudiante {
     private int edad;   
     private double promedio;
 
-    public void Estuendiante()
+    public Estudiante()
     {
         this.nombre = "Desconecido";
         this.edad = 0;
