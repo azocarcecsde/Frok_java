@@ -19,8 +19,7 @@ public class Main {
         System.out.println(cuenta1.mostrarDetalles());
 
     Estudiante estudiante1 = new Estudiante("juan juan", 20, 3.5);
-    System.out.println(estudiante1.mostrarInfo());
-    System.out.println(estudiante1.haAprobado());
+    estudiante1.mostrarInfo();
     }
         
 }

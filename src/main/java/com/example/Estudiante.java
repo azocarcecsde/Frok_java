@@ -58,12 +58,14 @@ public class Estudiante {
         
     }
 
-    public String mostrarInfo() {
-        return "Estudiante{" +
+    public void mostrarInfo()
+    {
+        System.out.println("Estudiante{" +
                 "nombre='" + nombre + '\'' +
                 ", edad=" + edad +
                 ", promedio=" + promedio +
-                '}';
+                " estado de aprobación: " + haAprobado() +
+                '}');
     }
     
 
