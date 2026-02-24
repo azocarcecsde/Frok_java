@@ -2,12 +2,12 @@ package com.example;
 
 public class Libro {
 
-     private String titulo;
+    private String titulo;
     private String autor;
     private int paginas;
 
     public Libro() {
-        this.titulo = "Desconecido";
+        this.titulo = "Desconocido";
         this.autor = "Anonimo";
         this.paginas = 0;   
     }
@@ -48,12 +48,12 @@ public void setTitulo(String titulo) {
         this.paginas = paginas;
     }
 
-    public String mostrarDetalles() {
-        return "Libro{" +
+    public void mostrarDetalles() {
+        System.out.println( "Libro{" +
                 "titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", paginas=" + paginas +
-                '}';
+                '}');
     }
 
 

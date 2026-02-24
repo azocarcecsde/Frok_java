@@ -8,7 +8,7 @@ public class Estudiante {
 
     public Estudiante()
     {
-        this.nombre = "Desconecido";
+        this.nombre = "Desconocido";
         this.edad = 0;
         this.promedio = 0.0;
     }
@@ -58,7 +58,7 @@ public class Estudiante {
         
     }
 
-    public String mostrarDetalles() {
+    public String mostrarInfo() {
         return "Estudiante{" +
                 "nombre='" + nombre + '\'' +
                 ", edad=" + edad +
